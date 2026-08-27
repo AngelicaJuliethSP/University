@@ -7,7 +7,7 @@ public class Student extends Person {
 
     private static int totalStudents = 0;
 
-    public Student(String name, int age, String id) {
+    public Student(String name, String id, int age) {
         super(name);
         this.age = age;
         this.id = id;
