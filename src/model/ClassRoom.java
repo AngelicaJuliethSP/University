@@ -11,7 +11,7 @@ public class ClassRoom {
     private Teacher teacher;
     private List<Student> students;
 
-    public ClassRoom(String name, String classroom, Teacher teacher, List<Student> students) {
+    public ClassRoom(String name, String classroom, Teacher teacher) {
         this.name = name;
         this.classroom = classroom;
         this.teacher = teacher;
